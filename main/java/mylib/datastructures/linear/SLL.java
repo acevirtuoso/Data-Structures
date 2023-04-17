@@ -6,7 +6,6 @@ public class SLL<x extends Comparable<x>> {
     private DNode<x> head;
     private DNode<x> tail;
     private int size;
-    private DNode<x> sorted;
 
     public SLL() {
         head = null;
